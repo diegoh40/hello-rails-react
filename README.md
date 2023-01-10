@@ -168,6 +168,14 @@ To run tests, run the following command:
 - Twitter: [@Diegoart80](https://twitter.com/Diegoart80)
 - LinkedIn:[ LinkedIn](https://www.linkedin.com/in/diegoarturoh/)
 
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **[Controllers specs]**
+- [ ] **[Processing data in models]**
+- [ ] **[Views]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
