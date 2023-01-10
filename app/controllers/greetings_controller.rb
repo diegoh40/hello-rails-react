@@ -3,6 +3,6 @@ class GreetingsController < ApplicationController
 
   def show
     @greeting = Greeting.all.sample
-    # render json: @greeting
+    render json: @greeting
   end
 end
