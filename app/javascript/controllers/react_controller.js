@@ -1,11 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import { Controller } from '@hotwired/stimulus'
+import React from 'react'
+import App from './components/App.js'
+import ReactDOM from 'react-dom'
 
-function App() {
-  return (<h1>Hello World!</h1>);
+// Connects to data-controller="react"
+export default class extends Controller {
+  connect () {
+    const app = document.getElementById('root')
+    console.log('app')
+    ReactDOM.render(<App />, app)
+  }
 }
-
-ReactDOM.render(
-  <App/>,
-  document.getElementById('root'),
-);
